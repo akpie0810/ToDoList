@@ -12,7 +12,7 @@
 body{
     width: 100%;
     min-height: 100vh;
-    background: url(/bgimg.jpg);
+    background: url(bgimg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -113,7 +113,7 @@ ul li::before{
     height: 30px;
     width: 30px;
     border-radius: 50%;
-    background: url(/unchecked.png);
+    background: url(unchecked.png);
     background-size: cover;
     position: center;
     top: 10px;
@@ -129,7 +129,7 @@ ul li.checked{
     
 }
 ul li.checked::before{
-    background: url(/checkImg.png);
+    background: url(checkImg.png);
     background-size: cover;
 }
 /* ul li::after */
@@ -141,7 +141,7 @@ ul li span{
     height: 30px;
     width: 30px;
     border-radius: 50%;
-    /* background: url(/cv.png); */
+    /* background: url(cv.png); */
     background-size: cover;
     /* top: 10rem; */
     left: 90%;
